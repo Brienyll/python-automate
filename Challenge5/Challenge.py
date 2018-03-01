@@ -10,7 +10,6 @@ if answer in attributes:
   result = attributes[answer]
   print(result)
 
-
 songs = {'Kedrick Lamar': 'Bitch don\'t kill my vibe'}
 
 print(songs)
