@@ -3,7 +3,7 @@ import os
 print(os.getcwd())
 
 os.chdir('/Users/standart/Desktop/Brix Files/Projects/python')
-
+# windows syntax os.chdir(r'\Users\student\Desktop\pythonautomate')
 print(os.getcwd())
 
 op = open("test.txt", "w")
