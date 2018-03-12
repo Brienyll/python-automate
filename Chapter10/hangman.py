@@ -1,5 +1,7 @@
 def hangman(word):
+    # keep track of how many incorrect answers
     wrong = 0
+    # strings used to draw hangman
     stages = ["",
               "--------       ",
               "|       |      ",
@@ -10,8 +12,11 @@ def hangman(word):
               "|              ",
               "|              "
               ]
+    # list containing each character in the variable word that keeps track of what letters are left
     rletters = list(word)
+    # list that keeps track of hints you display
     board = ["__"] * len(word)
+    # start at false to keep track if you have won the game
     win = False
     print("Welcome to Hangman")
     while wrong < len(stages) -1:
