@@ -7,7 +7,6 @@ try:
 except ZeroDivisionError:
     print('b cannet be zero. Try again')  
 
-
 def add(x,y):
     """
 Returns x+y.
