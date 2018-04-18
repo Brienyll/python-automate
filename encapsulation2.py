@@ -4,7 +4,11 @@ class Data:
 
     def change_data(self, index, n):
         self.nums[index] = n
-    
-data = Data()
-data.nums[1] = 100
-print(data.nums)
+
+data_one = Data()
+data_one.nums[2] = 100
+print(data_one.nums)
+
+data_two = Data()
+data_two.change_data(2, 300)
+print(data_two.nums)
