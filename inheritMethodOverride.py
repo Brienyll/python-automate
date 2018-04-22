@@ -7,7 +7,7 @@ class Shape():
         print("""{} by {}
               """.format(self.width,
                          self.len))
-
+''
 class Square(Shape):
     def area(self):
         return self.width * self.len
