@@ -11,3 +11,5 @@ Brielle = Rider("Brielle Genna")
 animal = Horse("Horsie", Brielle)
 
 print(animal.rider.name)
+
+# Brielle Genna
