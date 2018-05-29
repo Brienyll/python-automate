@@ -16,7 +16,4 @@ print(len(vague_list))
 print(vague_list[2])
 print(vague_list[2])
 
-# 0
-# 1
-# C
-# D
+# 4 random numbers/letters
