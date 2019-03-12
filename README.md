@@ -1,1 +1,1 @@
-# Python-automate-sololearn-self-taught-programmer
+# Python/automate/sololearn/self taught programmer
